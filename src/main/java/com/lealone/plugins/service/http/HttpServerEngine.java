@@ -9,7 +9,7 @@ import com.lealone.server.ProtocolServerEngineBase;
 
 public abstract class HttpServerEngine extends ProtocolServerEngineBase {
 
-    public static final String NAME = "vertx";
+    public static final String NAME = "tomcat";
 
     public HttpServerEngine(String name) {
         super(name);
